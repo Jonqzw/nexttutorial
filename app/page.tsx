@@ -1,4 +1,4 @@
-import Image from "next/image";
+//import Image from "next/image";
 import Link from "next/link"
 import './globals.css'
 //import { Inter } from "@next/font/google"
@@ -7,7 +7,7 @@ import './globals.css'
 
 export default function Home() {
   return (
-      <main className='main'>
+      <main>
       <h1>Hello se Worldo!!!</h1>
       <Link href={"/about"}>Link to about page</Link>
       </main>
